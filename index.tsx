@@ -1,0 +1,1 @@
+import ReactDOM from 'react-dom'  import './index.css'  // Appの代わりにHelloをインポートする  // import App from './App'  import Hello from './components/Hello'  ReactDOM.render(  <React.StrictMode>  {/* AppからHelloに置き換える */}  <Hello />  </React.StrictMode>,  document.getElementById('root')  )
